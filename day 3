@@ -1,0 +1,99 @@
+#ex 1 :Instructions
+class Currency:
+    def __init__(self, currency, amount):
+        self.currency = currency
+        self.amount = amount
+
+    #Your code starts HERE
+#Using the code above, implement the relevant methods and dunder methods which will output the results below.
+#Hint : When adding 2 currencies which don’t share the same label you should raise an error.
+#>>> c1 = Currency('dollar', 5) 
+#>>> c2 = Currency('dollar', 10)
+#>>> c3 = Currency('shekel', 1)
+#>>> c4 = Currency('shekel', 10)
+#>>> str(c1) :  dender method
+#'5 dollars'
+#>>> int(c1) :  dender method
+#5
+#>>> repr(c1) : dender method
+#'5 dollars'
+#>>> c1 + 5 : _add_
+#10
+#>>> c1 + c2 : _add_
+#15
+#>>> c1  : getter
+#5 dollars
+#>>> c1 += 5 : setter
+#>>> c1 : setter
+#10 dollars
+#>>> c1 += c2 : setter
+#>>> c1 : @classmethod
+#20 dollars
+#>>> c1 + c3 : getter
+#TypeError: Cannot add between Currency type <dollar> and <shekel> : @classmethod
+#ex 2 : Instructions :In a file named func.py create a function that sum 2 numbers, and prints the result
+#In a file named exercise_one.py import the function and call it to print the result
+#Hint: You can use the the following syntaxes:import module_name 
+#OR from module_name import function_name OR from module_name import function_name as fn ORimport module_name as mn
+class file:
+    def func(self):(self,sum)
+    print(func)
+    import math
+    print(math.sumprod)
+    #ex 3 : Instructions:Generate random String of length 5
+#Note: String must be the combination of the UPPER case and lower case letters only. No numbers and a special symbol.
+#Hint: use the string module
+my_list=input.str[""]>5
+import string 
+def string(self): ("upper_case+lower_case lettera")
+#ex 4 : Instructions:Create a function that displays the current date.
+#Hint : Use the datetime module.
+import calendar
+print(calendar.Day)
+#ex 5 : Instructions:Create a function that displays the amount of time left from now until January 1st.
+#(Example: the 1st of January is in 10 days and 10:34:01hours).
+from calendar import Day
+def time(self):(self,Day-calendar)
+Day=["january 1"]
+print(time)in min
+#ex 6: Instructions:Create a function that accepts a birthdate as an argument (in the format of your choice), 
+#then displays a message stating how many minutes the user lived in his life.
+def birthday(self):input("whats youre birthday")
+from calendar import Day
+birthday-Day=[min]
+print(min)
+#ex 7 :Instructions:Install the faker module, and take a look at the documentation and learn how to properly implement faker in your code.
+#Create an empty list called users. Tip: It should be a list of dictionaries.
+ #name, adress, langage_code. Use faker to populate them with fake data.
+users1=[{Name},{adress},{langage_code}]
+from faker import FAKER
+fake=FAKER()
+def CREAT_LIST(fake):[fake,name,adress,langage_code]
+fake.name=Name
+fake.adress=adress
+fake.langage_code=langage_code
+print(fake,name,adress,langage_code)
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
